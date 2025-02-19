@@ -25,8 +25,7 @@
     cd ..
     ```
 4. **Complete host.yml**
-    - server-one: {`<first-ip-addres-or-dns>`}
-    - server-two: {`<second-ip-addres-or-dns>`}
+    - see `./ansible/inventory/hosts.yml`
 5. **Complete playbook.yml**
     - see `./ansible/playbook.yml`
     - note `become: true` is needed elevate privilege like sudo.
